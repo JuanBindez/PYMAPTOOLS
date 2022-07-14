@@ -103,7 +103,7 @@ try:
 
                 [1] Instalar As Ferramentas (root)  [5] Minha Conexão
                 [2] Hosts Up
-                [3] Scan Profundo
+                [3] Scan Profundo (Nmap, Whois, Mtr)
                 [4] Exemplos Nmap
             '''
         )
