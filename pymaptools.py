@@ -1,4 +1,5 @@
 '''
+"This project is licensed under the MIT License."
 Author: www.github.com/JuanBindez
 License: https://github.com/JuanBindez/PyMapTools/blob/main/LICENSE
 Description: tools network
