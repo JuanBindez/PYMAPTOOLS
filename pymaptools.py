@@ -111,8 +111,8 @@ try:
         match escolha:
 
             case 1:
-                install_tools('apt install nmap')
-                install_tools('apt install whois')
+                install_tools('sudo apt install nmap')
+                install_tools('sudo apt install whois')
 
             case 2:
                 hosts_up()
