@@ -84,11 +84,9 @@ try:
     def scan_deep():
         ip = str(input("ip >  "))
         print("####################### NMAP ###########################")
-        os.system("nmap -A -Pn -v {}".format(ip))
+        os.system("sudo nmap -A -Pn -sS -v {}".format(ip))
         print("####################### WHOIS ###########################")
         os.system("whois {}".format(ip))
-        print("####################### MTR ###########################")
-        os.system("mtr {}".format(ip))
         menu_header()
 
 
@@ -103,7 +101,7 @@ try:
 
                 [1] Instalar As Ferramentas (root)  [5] Minha Conexão
                 [2] Hosts Up
-                [3] Scan Profundo (Nmap, Whois, Mtr)
+                [3] Scan Profundo (Nmap, Whois)
                 [4] Exemplos Nmap
             '''
         )
@@ -115,7 +113,6 @@ try:
             case 1:
                 install_tools('apt install nmap')
                 install_tools('apt install whois')
-                install_tools('apt install mtr')
 
             case 2:
                 hosts_up()
