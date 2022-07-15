@@ -25,7 +25,6 @@ SOFTWARE.
 
 '''
 Author: www.github.com/JuanBindez
-License: https://github.com/JuanBindez/PyMapTools/blob/main/LICENSE
 Description: tools network
 Python Version: 3.10
 year: 2022
