@@ -37,10 +37,21 @@ try:
     import os
     import time
     import webbrowser
+    
+    
+    class color():
+        VERDE = '\033[92m'
+        VERMELHO = '\033[91m'
+        AMARELO = '\033[93m'
+        AZUL = '\033[1;34m'
+        MAGENTA = '\033[1;35m'
+        VERDE_CLARO = '\033[1;92m'
+        NEGRITO = '\033[;1m'
+        RESET = '\033[0m'
 
 
     def desenho_header():
-        print(
+        print(Color.VERMELHO +
             '''
                      ____        __  __           _____           _     
                     |  _ \ _   _|  \/  | __ _ _ _|_   _|__   ___ | |___ 
@@ -50,7 +61,7 @@ try:
                            |___/             |_|           
     
             '''
-        )
+        + Color.RESET)
 
 
     def install_tools(pacotes):
@@ -94,7 +105,7 @@ try:
 
     def menu_header():
         desenho_header()
-        print(
+        print(Color.BRANCO +
             
             '''
                           [ Ctrl + C ]  Para Encerrar o Programa
@@ -106,7 +117,7 @@ try:
                 [3] Scan Profundo (Nmap, Whois)
                 [4] Exemplos Nmap
             '''
-        )
+        + Color.RESET)
 
 
         escolha = int(input(" > "))
