@@ -87,7 +87,12 @@ try:
         except KeyboardInterrupt:
             os.system("clear")
             menu_header()
-
+            
+    def malware_scan():
+        ip = str(input("ip >  "))
+        os.system("nmap -v -A --script=malware {}".format(ip))
+        menu_header()
+        
 
 
     def scan_deep():
@@ -109,7 +114,7 @@ try:
                           
 
                 [1] Instalar As Ferramentas (root)  [5] Minha Conexão
-                [2] Hosts Up
+                [2] Hosts Up                        [6] scan malware
                 [3] Scan Profundo (Nmap, Whois)
                 [4] Exemplos Nmap
             '''
