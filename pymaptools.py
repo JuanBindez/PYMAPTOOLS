@@ -116,7 +116,7 @@ try:
                 [1] Instalar As Ferramentas (root)  [5] Minha Conexão
                 [2] Hosts Up                        [6] scan malware
                 [3] Scan Profundo (Nmap, Whois)
-                [4] Exemplos Nmap
+                [4] Exemplos Nmap (site)
             '''
         + Color.RESET)
 
@@ -139,6 +139,9 @@ try:
 
             case 5:
                 minha_conexao()
+                
+             case 6:
+                malware_scan()
 
             case _:
                 print("digite apenas os numeros listados!")
