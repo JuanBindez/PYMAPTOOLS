@@ -114,8 +114,8 @@ try:
                           
 
                 [1] Instalar As Ferramentas (root)  [5] Minha Conexão
-                [2] Hosts Up                        [6] scan malware
-                [3] Scan Profundo (Nmap, Whois)
+                [2] Hosts Up                        [6] Scan Malware
+                [3] Scan Completo (Nmap, Whois)
                 [4] Exemplos Nmap (site)
             '''
         + Color.RESET)
