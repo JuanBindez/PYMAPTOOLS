@@ -90,7 +90,7 @@ try:
             
     def malware_scan():
         ip = str(input("ip >  "))
-        os.system("nmap -v -A --script=malware {}".format(ip))
+        os.system("nmap -v --script=malware {}".format(ip))
         menu_header()
         
 
