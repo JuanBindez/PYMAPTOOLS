@@ -97,7 +97,6 @@ try:
         menu_header()
         
 
-
     def scan_deep():
         ip = str(input("ip >  "))
         print("####################### NMAP ###########################")
