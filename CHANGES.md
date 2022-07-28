@@ -12,5 +12,5 @@
     
 ## v 0.3:
 
--criado a ferramenta de número 7
--modificaçõs
+- criado a ferramenta de número 7
+- modificaçõs na interface
