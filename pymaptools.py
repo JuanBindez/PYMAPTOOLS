@@ -142,10 +142,10 @@ try:
             case 5:
                 minha_conexao()
                 
-             case 6:
+            case 6:
                 malware_scan()
                 
-             case 7:
+            case 7:
                 tcp_udp_loop()
 
             case _:
