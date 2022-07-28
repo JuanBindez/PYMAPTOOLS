@@ -91,6 +91,8 @@ try:
             try:
                 time.sleep(2)
                 os.system("netstat -tu")
+                print("Concluido.")
+                time.sleep(4)
                 os.system("clear")
             except KeyboardInterrupt:
                 os.system("clear")
