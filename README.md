@@ -4,4 +4,5 @@ ferramentas de rede
 #### "This project is licensed under the MIT License."
 #### "Este projeto está licenciado nos termos da licença MIT."
 
-![Captura de tela de 2022-07-13 21-54-21](https://user-images.githubusercontent.com/79322362/178867901-6b9e11f4-2206-47ed-b384-815fe407443e.png)
+![Captura de tela de 2022-07-27 23-34-46](https://user-images.githubusercontent.com/79322362/181407897-794e7e02-1ea9-4f39-9889-e35ae08ebffd.png)
+
