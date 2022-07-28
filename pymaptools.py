@@ -1,6 +1,5 @@
 '''
 Copyright (c) 2022 Juan Carlos Bindez
-
 This project is licensed under the MIT License.
 '''
 
@@ -45,7 +44,7 @@ try:
                     |  _ \ _   _|  \/  | __ _ _ _|_   _|__   ___ | |___ 
                     | |_) | | | | |\/| |/ _` | '_ \| |/ _ \ / _ \| / __|
                     |  __/| |_| | |  | | (_| | |_) | | (_) | (_) | \__ 
-                    |_|    \__, |_|  |_|\__,_| .__/|_|\___/ \___/|_|___/ v 0.2
+                    |_|    \__, |_|  |_|\__,_| .__/|_|\___/ \___/|_|___/ v 0.3
                            |___/             |_|           
     
     
@@ -86,6 +85,17 @@ try:
         os.system("nmap -v --script=malware {}".format(ip))
         menu_header()
         
+        
+    def tcp_udp_loop():
+        while 1 < 2:
+            try:
+                time.sleep(2)
+                os.system("netstat -tu")
+                os.system("clear")
+            except KeyboardInterrupt:
+                os.system("clear")
+                menu_header()
+        
 
     def scan_deep():
         ip = str(input("ip >  "))
@@ -107,7 +117,7 @@ try:
 
                 [1] Instalar As Ferramentas (root)  [5] Minha Conexão
                 [2] Hosts Up                        [6] Scan Malware
-                [3] Scan Completo (Nmap, Whois)
+                [3] Scan Completo (Nmap, Whois)     [7] Netstat (TCP/UDP)
                 [4] Exemplos Nmap (site)
             '''
         + Color.RESET)
@@ -134,6 +144,9 @@ try:
                 
              case 6:
                 malware_scan()
+                
+             case 7:
+                tcp_udp_loop()
 
             case _:
                 print("digite apenas os numeros listados!")
