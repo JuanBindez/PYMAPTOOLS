@@ -45,7 +45,9 @@ try:
                     | |_) | | | | |\/| |/ _` | '_ \| |/ _ \ / _ \| / __|
                     |  __/| |_| | |  | | (_| | |_) | | (_) | (_) | \__ 
                     |_|    \__, |_|  |_|\__,_| .__/|_|\___/ \___/|_|___/ v 0.3
-                           |___/             |_|           
+                           |___/             |_|
+                           
+                           
                            Copyright (c) 2022 Juan Carlos Bindez
     
             '''
@@ -110,17 +112,19 @@ try:
 
     def menu_header():
         desenho_header()
-        print(Color.BRANCO +
+        print(Color.AMARELO +
             
             '''
                           [ Ctrl + C ]  Para Encerrar o Programa
-
                           
 
-                [1] Instalar As Ferramentas (root)  [5] Minha Conexão
-                [2] Hosts Up                        [6] Scan Malware
-                [3] Scan Completo (Nmap, Whois)     [7] Netstat (TCP/UDP)
+                [1] Instalar As Ferramentas (root)  
+                [2] Hosts Up                        
+                [3] Scan Completo (Nmap, Whois)     [
                 [4] Exemplos Nmap (site)
+                [5] Minha Conexão
+                [6] Scan Malware
+                [7] Netstat (TCP/UDP)
             '''
         + Color.RESET)
 
