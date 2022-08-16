@@ -1,4 +1,4 @@
-# PyMapTools V 0.03
+# PyMapTools v0.0.3
 
 
 #### "This project is licensed under the MIT License."
